@@ -19,8 +19,8 @@ li  $v0, 4
 la $a0, space
 syscall 
 
-beq         $t0, 1, exit  
-beq         $t0, 0, exit
+beq         $t0, 1, salir
+beq         $t0, 0, salir
 
 addi $t1, $t0, -1
 
